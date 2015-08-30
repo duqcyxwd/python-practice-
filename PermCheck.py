@@ -66,7 +66,9 @@ def solution(A):
     if size != newList[size-1]:
         return 0
     for x in xrange(0, size-1):
-        if A[x] == A[x+1]:
+        if newList[x] == newList[x+1]:
             return 0
     return 1
-    pass
+
+
+print sorted([9, 5, 7, 3, 2, 7, 3, 1, 10, 8])
