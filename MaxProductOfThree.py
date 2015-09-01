@@ -77,6 +77,10 @@ print "hi"
 
 
 A =  [-5, 5, -5, 4]
-print solution3(A)
+print A
+print sorted(A)
 
+print solution3(A)
+A.sort()
+print A
 print max(1, 2, 3, 5)
